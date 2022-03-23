@@ -28,8 +28,6 @@ const headFour = head[3];
 const headFive = head[4];
 const headSix = head[5];
 
-// console.log(headTwo.innerText);
-// console.log(headSix.innerText);
 headTwo.replaceWith(headFive); // перемещаем заголовок ES6 и не только 
 headSix.replaceWith(headTwo);  // перемещаем заголовок Асинхронная обработка и оптимизация
 
